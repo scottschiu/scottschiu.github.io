@@ -14,9 +14,8 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	border-bottom: 5px solid #e7e7e7;
 	z-index: 100;
-	background-color: WHITE; 
+	background-color: #f4f4f4 !important; 
 } 
 
 header a {
@@ -32,7 +31,7 @@ header li.active {
 
 .big{
 	height: 90px;
-	border-bottom: 1px solid #e7e7e7;	
+	border-bottom: 1px solid #d6d6d6;	
 }
 
 .big img{
@@ -48,9 +47,8 @@ header li.active {
 
 
 .small{ 
-	height: 54px; 
-	background: #fff;
-	border-bottom: 1px solid #e7e7e7;	
+	height: 54px; 	
+	border-bottom: 1px solid #d6d6d6;	
 }
 
 .small img{ 
@@ -113,9 +111,6 @@ html, body, div, span, h1, h2, a, img, ul, li, header, nav, section {
   margin: 0;
   padding: 0;
   border: 0;
-  /* font-size: 100%;
-  font: inherit; */
-  /* vertical-align: baseline; */
   outline: none;
   -webkit-font-smoothing: antialiased;
 }
@@ -125,7 +120,7 @@ html { overflow-y: scroll; }
 
 body {
   font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  
+  background-color: #ffffff;
     color: #414141;
 	font-size: 16px;
 	line-height: 1.7em;
@@ -137,9 +132,9 @@ body {
   display: block;
   width: 100%;
   text-align: center;
-  line-height: 23px;
-  color: #515151;
-  font-size: 15px;
+  line-height: 25px;
+  color: #515151;  
+  font-size: 17px;
 }
 
 #portfolio .item h2 {
@@ -150,7 +145,6 @@ body {
 
 #mix {
   display: block;
-  font-size: 62.5%;
   width: 918px;
   padding-top: 115px;
 }
@@ -166,7 +160,7 @@ body {
 	display: inline-block;
 	width: auto;
 	padding: 10px 20px;
-	font-size: 13px;
+	font-size: 14px;
 	font-family: 'PT Sans';
 	cursor: pointer;
 	
@@ -186,7 +180,6 @@ body {
 	width: 100%;
 	padding: 0 0px;
 	margin-bottom: 35px;
-	background: WHITE;   /****/
 }
 
 #portfolio .item {
@@ -194,11 +187,10 @@ body {
 	opacity: 0;
 	width: 32%; /* */
 	vertical-align: top;
-	margin: 3px 6px 20px 3px; /* space between rows,pics */
+	margin: 3px 6px 30px 3px; /* space between rows,pics */
 	font-size: 15px;
 	text-align: center;
-	-moz-box-sizing: border-box;
-	background: white;
+	-moz-box-sizing: border-box;	
 }
 
 #portfolio .item a {
@@ -216,7 +208,7 @@ body {
 #portfolio .item img {
    min-width: 100% !important;
    max-width: 100% !important;
-   padding: 14px 0px 8px 0px;
+   padding: 14px 0px 6px 0px;
    
    -webkit-backface-visibility:hidden;
 }
@@ -249,13 +241,15 @@ body {
 	}		
 
 footer{
-	border-top: 1px solid #e7e7e7;
+	border-top: 1px solid #d6d6d6;
 	margin: auto;
-	
-	padding: 20px;
+	background-color: #f4f4f4;
+	padding: 40px;
 	font-size: 13px;
 	color: #222222;
 	text-align: center;
+	height: 100%;
+	box-shadow: 0px 500px 0px 500px #f4f4f4;
 	}
 	
 
