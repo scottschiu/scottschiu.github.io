@@ -170,8 +170,7 @@ body {
 }
 #filter-list li.active {
 	color: #ffffff;
-	background: #c20007;
-	border-bottom: 1px solid #c20007;
+	background: #c20007;	
 }
 
 
@@ -189,7 +188,7 @@ body {
 	vertical-align: top;
 	margin: 3px 6px 30px 3px; /* space between rows,pics */
 	font-size: 15px;
-	text-align: center;
+	text-align: center;	
 	-moz-box-sizing: border-box;	
 }
 
@@ -202,8 +201,10 @@ body {
     -webkit-transition: none;
     -o-transition: color 0 ease-in;
     transition: none;
-	
+	color: #c20007;	
 }
+
+
 
 #portfolio .item img {
    min-width: 100% !important;
@@ -214,9 +215,10 @@ body {
 }
 
 #portfolio .item img:hover {
-	opacity: 0.4;
-  
+	opacity: 0.4;  
+	
 }
+
 
 #portnav{
 	padding: 40px 0px 20px 0px;
