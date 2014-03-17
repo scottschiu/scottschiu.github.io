@@ -119,6 +119,17 @@ body {
 	line-height: 1.7em;
 }
 
+.side {
+  line-height: 1.59em;  
+  font-size: 15px;  
+}
+
+.side h3 {
+ font-size: 18px;
+ border-bottom: 0px;
+ margin-bottom: 0px;
+}
+
 #portfolio .item h1 {
   font-family: 'PT Sans', Arial, sans-serif;
   font-weight: bold;
