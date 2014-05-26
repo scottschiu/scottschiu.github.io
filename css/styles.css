@@ -228,9 +228,10 @@ body {
 	padding: 40px 0px 20px 0px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	text-align: right;
+	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
+	line-height: 64px;
 	}
 	
 #portnav a{
