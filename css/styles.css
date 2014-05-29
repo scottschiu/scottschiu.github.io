@@ -37,7 +37,7 @@ header li.active {
 .big img{
 	width: auto;
 	height: 75px;	
-	margin-top: -9px;
+	margin-top: -8px;
 }
 
 .big li{
@@ -225,11 +225,11 @@ body {
 
 
 #portnav{
-	padding: 40px 0px 20px 0px;
+	padding: 30px 0px 10px 0px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: bold;
 	line-height: 64px;
 	}
@@ -294,7 +294,7 @@ html[xmlns] .clearfix { display: block; }
 .psotitle { margin-top: -160px; margin-bottom: 30px; margin-left: 180px; }
 	.big { height: 54px; }
 	.small { height: 54px; }
-	header.big img { height: 40px; width: auto; }	
+	header.big img { height: 39px; width: auto; }	
 	header.big li { margin-top: 0px; background: #ffffff; padding: 0px 0px 0px 30px; }	
 	header.small li {	margin-top: 0px; background: #ffffff; padding: 0px 0px 0px 30px;	}	
 	
