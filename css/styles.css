@@ -30,14 +30,14 @@ header li.active {
 }
 
 .big{
-	height: 90px;
+	height: 95px;
 	border-bottom: 1px solid #d6d6d6;	
 }
 
 .big img{
 	width: auto;
 	height: 75px;	
-	margin-top: -8px;
+	margin-top: -6px;
 }
 
 .big li{
@@ -47,13 +47,14 @@ header li.active {
 
 
 .small{ 
-	height: 54px; 	
+	height: 55px; 	
 	border-bottom: 1px solid #d6d6d6;	
 }
 
 .small img{ 
 	width: auto; 
-	height: 41px; 				
+	height: 40px;
+	margin-top: -8px;
 }
 
 .small li{ 
