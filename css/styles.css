@@ -293,9 +293,9 @@ html[xmlns] .clearfix { display: block; }
 
 @media screen and (max-width: 767px) {
 .psotitle { margin-top: -160px; margin-bottom: 30px; margin-left: 180px; }
-	.big { height: 54px; }
+	.big { height: 54px;  }
 	.small { height: 54px; }
-	header.big img { height: 39px; width: auto; }	
+	header.big img { height: 39px; width: auto; margin-top: -8px; }	
 	header.big li { margin-top: 0px; background: #ffffff; padding: 0px 0px 0px 30px; }	
 	header.small li {	margin-top: 0px; background: #ffffff; padding: 0px 0px 0px 30px;	}	
 	
