@@ -261,6 +261,31 @@ body {
 	color: #ededed;
 	}		
 	
+#contact{
+	padding: 30px 0px 10px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 64px;
+	}	
+	
+#contact a{
+	background: #d8d8d8;
+	margin-left: 5px;
+	padding: 15px 40px 15px 40px;
+	color: #777777;	
+	}
+
+#contact a:hover{
+	color: #c20007;
+	background: #f9e5e6;
+	text-decoration: none;
+	}		
+		
+	
+	
 
 footer{
 	border-top: 1px solid #d6d6d6;
@@ -330,3 +355,6 @@ html[xmlns] .clearfix { display: block; }
   #portfolio .item { width: 100%; margin-bottom: 12px; margin-right: 0; }
 }
 
+@media screen and (max-width: 990px) {
+#portnav.linkedin { margin-left: -5px !important; }
+}
