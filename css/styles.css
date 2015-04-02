@@ -356,5 +356,5 @@ html[xmlns] .clearfix { display: block; }
 }
 
 @media screen and (max-width: 990px) {
-#portnav.linkedin { margin-left: -5px !important; }
+#portnav.linkedin { margin-left: -4px !important; }
 }
