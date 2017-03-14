@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Scott Chiu | Portfolio - Multi-Selection Accessibility</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="The portfolio of Scott Chiu - User Experience, Interaction, and Visual Designer">
+	<meta name="author" content="Scott Chiu">
+	<meta name="keywords" content="Scott, Chiu, scottschiu, portfolio, ui, ux, design, interaction, user, experience, hci, mhci, cmu, carnegie, mellon" />
+
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/styles.css" rel="stylesheet"> 
+
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script> 	
+	
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+	
+	<style type="text/css" media="all">
+		@media screen and (max-width: 991px){
+		.headerimg {margin-top:56px !important;}
+		h1 {font-size: 36px;}
+		h3 {font-size: 22px;}
+		}
+		
+		@media screen and (max-width: 767px){
+		.headerimg {margin-top:36px !important;}
+		}
+		
+		@media screen and (max-width: 534px){
+		.headerimg {margin-top:16px !important;}
+		}
+		
+		@media screen and (max-width: 364px){
+		.headerimg {margin-top:26px !important;}
+		h1 {font-size: 30px;}
+		}
+	</style>
+</head>
+
+<body>
+
+<div id="about" style="background: #D2BED3;
+	margin-top:54px; 
+	padding: 15px 0px 30px 0px;
+	height: 286px;">
+
+	<div class="container" style="text-align: center;">
+		<img class="headerimg" src="accessible_header.png" height="100%" style="margin-top: 58px;" >
+			
+		<h1 style="color: #000000;">Accessible Multi-Selection<br></h1>
+		
+	</div>
+</div>	
+
+<div class="container">
+	<header class="big">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://www.scottschiu.com"><img src="../sc-logo.jpg"></a>
+						</div>
+					
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="active">
+									<a href="../index.html">Portfolio</a>
+								</li>
+								
+								<li>
+									<a href="../resume.html">Résumé</a>
+								</li>
+								
+								<li>
+									<a href="../about.html">About</a>
+								</li>
+								
+								<li>
+									<a href="../contact.html">Contact</a>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</nav>			
+			</div>
+		</div>
+	</header>
+	
+	
+	
+	<section class="stretch">
+		<div class="row clearfix"> 
+		
+			<div class="col-md-12 col-sm-12 column" id="portnav">
+					<a href="#process">Process</a>
+					
+					<a href="#deliverables">Deliverables</a>
+					
+					<a href="../pt-robots/index.html">Previous</a>
+					
+					<a href="../sora/index.html">Next</a>
+			</div>
+			
+			<div class="col-md-9 col-sm-9 column">
+			
+					<h3>Project Background</h3>
+					
+					<p>All operating systems and applications support selection with point/click or aim/touch. Most also support multi-selection to choose lists, icons, and objects. If the items aren't contiguous (i.e., there are item(s) between A and B), then using command-click to make that multi-selection is one of the more common ways to multi-select on a desktop OS.
+					<p>If there was no keyboard on a laptop computer, how can this interaction be supported?
+</p>
+
+					<h3>Problem Statement</h3>
+					<a name="process"></a><p>How might we produce the best interaction model for the selection multiple items, but using only a mouse (point/click)?</p>
+									
+			</div>
+				
+			<div class="col-md-3 col-sm-3 column side">
+				<h3>My Roles / Process</h3>
+				<ul class="side">
+					<li>Current State Modelling</li>
+					<li>Competitive Research</li>
+					<li>User Research</li>
+					<li>Design Concept</li>
+				</ul>				
+			</div>
+		</div>
+				
+		<div class="row clearfix"> 
+			<div class="col-md-12 column">
+				<h3>Design Process</h3>
+						
+					<h4>Current State: Interactions</h4>
+					<p>I conducted research to determine interactions, products utilizing these interactions, and pros/cons of each.</p>
+					
+					<div class="imgcaption">
+						<img class="img-responsive mid" src="Current_Interactions.png">				
+					</div>	
+					
+					<br>
+
+					
+					<div class="imgcaption">
+						<img class="img-responsive mid" src="Current_Use_Cases.png">				
+					</div>	
+					
+					
+					
+					<div id="CurrentStateCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+							<li data-target="#CurrentStateCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#CurrentStateCarousel" data-slide-to="1"></li>
+							<li data-target="#CurrentStateCarousel" data-slide-to="2"></li>
+							<li data-target="#CurrentStateCarousel" data-slide-to="3"></li>
+							<li data-target="#CurrentStateCarousel" data-slide-to="4"></li>
+							<li data-target="#CurrentStateCarousel" data-slide-to="5"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+							<div class="item active">
+							  <img src="Current_01.png">
+							</div>
+
+							<div class="item">
+							  <img src="Current_02.png">
+							</div>
+							
+							<div class="item">
+							  <img src="Current_03.png">
+							</div>
+
+							<div class="item">
+							  <img src="Current_04.png">
+							</div>
+						
+							<div class="item">
+							  <img src="Current_05.png">
+							</div>
+							
+							<div class="item">
+							  <img src="Current_06.png">
+							</div>
+
+
+						  </div>
+
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#CurrentStateCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#CurrentStateCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						</div>
+
+
+
+					<br>	
+					<br>
+					<br>
+						
+					<h4>Mock User Research & Personas</h4>
+					<p>Given my limited time to complete the project, concepts were shown to participants in a rapid user testing and evaluation session.</p>
+
+					<div id="ResearchCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+							<li data-target="#ResearchCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#ResearchCarousel" data-slide-to="1"></li>
+
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+							<div class="item active">
+							  <img src="User_Evaluation_1.png">
+							</div>
+
+							<div class="item">
+							  <img src="User_Evaluation_2.png">
+							</div>
+				
+						  </div>
+
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#ResearchCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#ResearchCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						</div>					
+					
+					
+					<h4>Findings</h4></a>
+					<p>Based off my (mock) user research, the best solution appears to be based on context and preference.</p>
+						
+					<div class="imgcaption">
+						<img class="img-responsive mid" src="Findings.png"><a name="deliverables"></a>				
+					</div>	
+						
+						
+					<h4>Design Concept</h4>
+					<p>Using all of the insights and research, I produced a design concept: Use of gestural selection in design tools (in this case, Illustrator).</p>
+						
+					<div class="imgcaption">
+						<img class="img-responsive mid" src="Design_Concept.png">
+					</div>	
+						
+					
+					
+					<h4>Next Steps</h4>
+					
+					<p>If more time were allotted, I would have given the participants interactive prototypes to have them complete specific scenarios. Then, I would probe them for subjective opinions and perform a heuristic evaluation to provide another iteration on the design.</p>
+					
+										<br>
+					
+			<div class="col-md-12 col-sm-12 column" id="portnav">
+					<a href="#process">Process</a>
+					
+					<a href="#deliverables">Deliverables</a>
+					
+					<a href="../pt-robots/index.html">Previous</a>
+					
+					<a href="../sora/index.html">Next</a>
+			</div>
+						
+					<a name="bottom"></a>	
+					<br>	
+						
+			</div>
+		</div>
+	</section>			
+</div>
+</body>
+
+
+<footer>
+	<div class="footer">
+		© 2017 Scott Chiu. All rights reserved.
+	</div>
+</footer>
+
+</html>
